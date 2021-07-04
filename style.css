@@ -1,0 +1,82 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFB800; 
+
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    border-radius: 5rem  5rem 0rem 0rem;
+    background-color: white;
+   
+    
+    
+}
+
+.aparelho{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: initial;
+    
+ 
+    
+}
+
+
+
+main p{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.foto {
+    background: url("iphone.png");
+    height: 3000x;
+    width: 150px;
+    margin-top: -20px;
+    background-color: red;
+
+}
+
+.perguntas{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+}
+
+.parcelamento {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
