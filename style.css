@@ -3,25 +3,26 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #FFB800; 
-     overflow: hidden; 
+    overflow: hidden; 
 
 }
 
+
+
 header{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    
-    /* height: 100px;  */
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     align-content :center;
-}
+   
+    
+}  
 
 header a {
     display: flex;
     align-items: center;
     margin-left: 1rem;
+ 
+ 
 }   
 
 header h1{
@@ -29,6 +30,11 @@ header h1{
     font-size: 1.2rem;
     color: white;
     word-break: keep-all;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    
+    align-items: center;
 }
 
 
@@ -37,7 +43,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
     border-radius: 4rem  4rem 0rem 0rem;
     background-color: white;
 }
@@ -45,30 +50,71 @@ main{
 main h2{
     
     margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight:bold;
 }
 
 
 
-.aparelho{
+main .aparelho {
     display: flex;
     justify-content: center;
-    background-color: white;
-    position: initial;
+    background-color: white; 
+
     
- 
     
 }
 
 
+main .aparelho > select{
+    width: 8rem;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    outline: none;
+    text-align-last: center; 
+    color:#999595;
+  
+}
 
 main p{
     text-align: center;
-    color: #999595;
+    color: black;
+    font-size: 20px;
+    line-height: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight:normal;
+    
 }
 
-h2 {
-    text-align: center;
+main .parcelamento {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
 
+}
+
+main .parcelamento > select {
+    width: 8rem;
+    border-top: none;
+    border-left: none ;
+    border-right: none;
+    text-align-last: center;
+    outline: none;
+    color:#999595;
+    
+
+}
+
+main .parcelamento select > option {
+    text-align-last: center;
+}
+
+main h2 {
+    text-align: center;
 }
 
 .foto{
@@ -89,14 +135,16 @@ h2 {
     justify-content: center;
     background-color: white;
     text-align: center;
-    color: #999595;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight:normal;
 }
 
-.parcelamento {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-}
+
+
+
+
 
 .realizarpedido{
     display: flex;
@@ -123,4 +171,10 @@ h2 {
     border-radius: 2rem;
     border:none;
     
+}
+
+.teste{
+    background-color: red;
+   /* height: 30px; */
+   width: 30px;
 }
