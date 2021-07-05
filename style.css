@@ -3,22 +3,34 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #FFB800; 
-    /* overflow: hidden; */
+     overflow: hidden; 
 
 }
 
 header{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    height: 100px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+    /* height: 100px;  */
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-content :center;
 }
+
+header a {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}   
 
 header h1{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
+    word-break: keep-all;
 }
+
 
 
 main{
@@ -31,8 +43,11 @@ main{
 }
 
 main h2{
-    word-break:break-word;
+    
+    margin: 1rem;
 }
+
+
 
 .aparelho{
     display: flex;
@@ -48,6 +63,7 @@ main h2{
 
 main p{
     text-align: center;
+    color: #999595;
 }
 
 h2 {
@@ -73,6 +89,7 @@ h2 {
     justify-content: center;
     background-color: white;
     text-align: center;
+    color: #999595;
 }
 
 .parcelamento {
@@ -90,8 +107,8 @@ h2 {
 
 .realizarpedido{
     background-color: white;
-   padding-top: 2rem ;
-    height: 100vh;
+     padding-top: 2rem ;
+    height: 50vh;
     
    
 
