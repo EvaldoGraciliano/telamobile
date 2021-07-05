@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #FFB800; 
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -28,9 +28,10 @@ main{
 
     border-radius: 4rem  4rem 0rem 0rem;
     background-color: white;
-   
-    
-    
+}
+
+main h2{
+    word-break:break-word;
 }
 
 .aparelho{
