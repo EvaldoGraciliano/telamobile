@@ -4,40 +4,47 @@ body {
     box-sizing: border-box;
     background: #FFB800; 
     overflow: hidden; 
-
 }
-
-
 
 header{
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    align-content :center;
-   
     
-}  
+    display: grid;
+    grid-template-columns: 1fr 11fr 1fr;
+    align-items: center;
+   
+
+    
+
+}
+
+header h1 {
+
+   
+    overflow-wrap: normal;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+}
 
 header a {
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
- 
- 
-}   
+    margin-left: 0.3rem;
+  
 
-header h1{
-    text-align: center;
-    font-size: 1.2rem;
-    color: white;
-    word-break: keep-all;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight:bold;
-    
-    align-items: center;
 }
 
 
+
+
+/* header {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header h1{
+    font-size:20px;
+    color:white;
+} */
 
 main{
     display: flex;
@@ -173,8 +180,3 @@ main h2 {
     
 }
 
-.teste{
-    background-color: red;
-   /* height: 30px; */
-   width: 30px;
-}
